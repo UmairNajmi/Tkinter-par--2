@@ -1,0 +1,22 @@
+"""""
+
+# Some info about width and height in Tkinter 
+from tkinter import *
+
+najmi_root = Tk()
+
+# width x Height
+najmi_root.geometry("644x434")  # 'geometry' it is use for controlling the width &  height of GUI window
+
+# width x Height
+najmi_root.minsize(300, 100)  # 'minsize' it will give minimum size that how much you will minimize the window
+
+# width x Height
+najmi_root.maxsize(1200, 988)  # 'maxsize' it will give maximum size that how much you will maximize the window
+
+umair = Label(text="Umair Najmi made this simple code for you")  # 'Label' it is use to write inside a window of GUI.
+umair.pack()  # it will work after you write 'umair.pack()
+
+najmi_root.mainloop()
+
+"""""
